@@ -1,6 +1,6 @@
 class RomanNumerals {
-    private static final String[] NUMERALS = {"I", "IV", "V", "IX", "X", "XL", "L", "XC", "C"};
-    private static final int[] VALUES = {1, 4, 5, 9, 10, 40, 50, 90, 100};
+    private static final String[] NUMERALS = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"};
+    private static final int[] VALUES = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
     public static int toInt(String roman) {
         int result = 0;
