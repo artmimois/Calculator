@@ -5,7 +5,6 @@ class RomanNumerals {
     public static int toInt(String roman) {
         int result = 0;
         int i = NUMERALS.length - 1;
-        int pos = 0;
 
         while (roman.length() > 0 && i >= 0) {
             if (roman.startsWith(NUMERALS[i])) {
